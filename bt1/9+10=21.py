@@ -43,6 +43,7 @@ def yes_no():
         game()
     elif y_n == 'n':
         print("Thanks for playing!")
+        return
     else:
         print("I ain't joking, wanna play again or not?")
         while not(y_n == 'y' and y_n == 'n'):
